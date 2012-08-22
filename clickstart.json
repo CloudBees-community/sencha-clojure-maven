@@ -1,0 +1,24 @@
+{
+    "id": "sencha-clojure-maven",
+    "name": "Sencha, Clojure, Maven and Tomcat",
+    "source": "git://github.com/CloudBees-community/sencha-clojure-maven.git",
+    "description" : "This is a basic sencha application showcasing ORM with a clojure backend",
+    "doc-url" : "https://github.com/CloudBees-community/sencha-clojure-maven/blob/master/README.md",
+    "icon" : "https://raw.github.com/CloudBees-community/sencha-clojure-maven/master/icon.png",
+    "runtime": {
+        "type": "tomcat"                
+    },
+    "databases": [
+        {
+            "type": "mysql",
+            "alias": "ClojureDB"
+        }
+    ],
+    "build-with-jenkins": {
+        "template": {
+            "type": "maven",
+            "options": {}
+        },
+        "archive": "frontend/target/*.war"
+    }
+}
