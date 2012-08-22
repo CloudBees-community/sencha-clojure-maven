@@ -3,15 +3,15 @@
  "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
 <web-app>
-	<!--<listener>
-	  <listener-class>com.cloudbees.sencha-backend.sencha.database</listener-class>
-	</listener>-->
+	<listener>
+	  <listener-class>war.listener</listener-class>
+	</listener>
 	<servlet>
-          <servlet-name>myservlet</servlet-name>
-          <servlet-class>simple.war</servlet-class>
+          <servlet-name>sencha-servlet</servlet-name>
+          <servlet-class>war.servlet</servlet-class>
         </servlet>
         <servlet-mapping>
-          <servlet-name>myservlet</servlet-name>
+          <servlet-name>sencha-servlet</servlet-name>
           <url-pattern>/*</url-pattern>
         </servlet-mapping>
 	<resource-ref>
