@@ -142,7 +142,7 @@ Ext.application({
                     ],
 
                     listeners: {
-                        submit: function(form, result) {
+                        beforesubmit: function(form, result) {
                             this.up('tabpanel').getComponent('contactlist').getStore().load();
                             // Switch to main tab
                             this.up('tabpanel').animateActiveItem(0, {type: 'slide', direction: 'right'});

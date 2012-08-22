@@ -3,4 +3,4 @@
   (:require [sencha.core :as core])
   (:gen-class :extends javax.servlet.http.HttpServlet))
 
-(defservice core/main-routes)
+(defservice core/app)
