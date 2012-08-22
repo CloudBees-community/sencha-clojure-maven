@@ -34,10 +34,6 @@
         <groupId>com.theoryinpractise</groupId>
         <artifactId>clojure-maven-plugin</artifactId>
         <version>1.3.10</version>
-        <configuration>
-          <warnOnReflection>true</warnOnReflection>
-          <clojureOptions>-Xmx512m -Xms512m -server -XX:PermSize=64M -XX:MaxPermSize=256M -Dfile.encoding=UTF8</clojureOptions>
-        </configuration>
         <executions>
           <execution>
             <id>compile</id>
@@ -60,7 +56,7 @@
         <groupId>org.mortbay.jetty</groupId>
         <artifactId>maven-jetty-plugin</artifactId>
         <configuration>
-          <contextPath>/cpj</contextPath>
+          <contextPath>/</contextPath>
         </configuration>
       </plugin>
       <plugin>
@@ -68,7 +64,7 @@
         <artifactId>maven-war-plugin</artifactId>
         <version>2.2</version>
         <configuration>
-          <warName>cpj</warName>
+          <warName>sencha-clojure</warName>
         </configuration>
       </plugin>
     </plugins>
