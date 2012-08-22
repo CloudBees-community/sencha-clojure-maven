@@ -1,0 +1,24 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>com.cloudbees</groupId>
+    <artifactId>clojars-parent</artifactId>
+    <version>0.1.0</version>
+    <relativePath>parent/pom.xml</relativePath>
+  </parent>
+
+  <groupId>com.cloudbees</groupId>
+  <artifactId>sencha-clojure</artifactId>
+  <packaging>pom</packaging>
+  <name>Simple Sencha Template with Clojure Backend</name>
+  <version>0.1.0</version>
+
+  <modules>
+    <module>backend</module>
+    <module>frontend</module>
+    <module>parent</module>
+  </modules>
+
+</project>
