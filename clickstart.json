@@ -18,7 +18,6 @@
         "template": {
             "type": "maven",
             "options": {}
-        },
-        "archive": "frontend/target/*.war"
+        }
     }
 }

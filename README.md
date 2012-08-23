@@ -41,7 +41,7 @@ Create a new Maven project in Jenkins, changing the following:
 
         Applications: First Match
         Application Id: MYAPP_ID
-        Filename Pattern: frontend/target/*.war
+        Filename Pattern: target/*.war
 
 * Optionally change the application container to Java EE, if you wish to deploy on JBoss. 
 
@@ -49,11 +49,11 @@ Create a new Maven project in Jenkins, changing the following:
 
 In the sencha-clojure-maven directory, open a command line, and invoke maven by typing "mvn package" to build the war file, then deploy it on cloudbees typing:
 
-    bees app:deploy -t tomcat -a MYAPP_ID frontend/target/*.war
+    bees app:deploy -t tomcat -a MYAPP_ID target/*.war
 
 Or, for JBoss:
 
-    bees app:deploy -t jboss -a MYAPP_ID frontend/target/*.war
+    bees app:deploy -t jboss -a MYAPP_ID target/*.war
 
 ## To deploy this locally:
 

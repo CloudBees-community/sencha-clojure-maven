@@ -29,6 +29,7 @@
   </dependencies>
 
   <build>
+    <directory>../target</directory>
     <plugins>
       <plugin>
         <groupId>com.theoryinpractise</groupId>
