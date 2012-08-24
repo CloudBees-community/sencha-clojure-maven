@@ -1,6 +1,6 @@
 Ext.application({
     name: 'Sencha',
-
+    requires: ['Ext.tab.panel','Ext.dataview.NestedList','Ext.TitleBar', 'Ext.form.Panel', 'Ext.form.FieldSet', 'Ext.field.Number', 'Ext.field.TextArea'],
     launch: function() {
         Ext.create('Ext.tab.Panel', {
 
