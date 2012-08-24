@@ -1,6 +1,6 @@
 Ext.application({
     name: 'Sencha',
-    requires: ['Ext.tab.panel','Ext.dataview.NestedList','Ext.TitleBar', 'Ext.form.Panel', 'Ext.form.FieldSet', 'Ext.field.Number', 'Ext.field.TextArea'],
+    requires: ['Ext.tab.Panel','Ext.dataview.NestedList','Ext.TitleBar', 'Ext.form.Panel', 'Ext.form.FieldSet', 'Ext.field.Number', 'Ext.field.TextArea'],
     launch: function() {
         Ext.create('Ext.tab.Panel', {
 
@@ -44,7 +44,7 @@ Ext.application({
                         styleHtmlContent: true,
 
                         listeners: {
-                            beforesubmit: function(form, result) {
+                            submit: function(form, result) {
                                 this.up('nestedlist').getStore().load();
                                 // Switch to main tab.
                                 this.up('nestedlist').animateActiveItem(0, {type: 'slide', direction: 'right'});
@@ -142,7 +142,7 @@ Ext.application({
                     ],
 
                     listeners: {
-                        beforesubmit: function(form, result) {
+                        submit: function(form, result) {
                             this.up('tabpanel').getComponent('contactlist').getStore().load();
                             // Switch to main tab
                             this.up('tabpanel').animateActiveItem(0, {type: 'slide', direction: 'right'});
