@@ -1,10 +1,10 @@
 {
-    "id": "sencha-clojure-maven",
-    "name": "Sencha, Clojure, Maven and Tomcat",
-    "source": "git://github.com/CloudBees-community/sencha-clojure-maven.git",
+    "id": "sencha-clojure",
+    "name": "SenchaTouch/HTML5 and Clojure",
+    "source": "git://github.com/michaelneale/sencha-clojure-maven.git",
     "description" : "This is a basic sencha application showcasing ORM with a clojure backend",
-    "doc-url" : "https://github.com/CloudBees-community/sencha-clojure-maven/blob/master/README.md",
-    "icon" : "https://raw.github.com/CloudBees-community/sencha-clojure-maven/master/icon.png",
+    "doc-url" : "https://github.com/michaelneale/sencha-clojure-maven/blob/master/README.md",
+    "icon" : "https://raw.github.com/michaelneale/sencha-clojure-maven/master/icon.png",
     "runtime": {
         "type": "tomcat"                
     },
