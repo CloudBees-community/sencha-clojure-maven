@@ -36,6 +36,11 @@
       <artifactId>cheshire</artifactId>
       <version>4.0.1</version>
     </dependency>
+    <dependency>
+      <groupId>com.h2database</groupId>
+      <artifactId>h2</artifactId>
+      <version>1.3.168</version>
+    </dependency>
   </dependencies>
 
   <build>

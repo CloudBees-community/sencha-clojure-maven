@@ -1,2 +1,7 @@
 /backend/target
+/backend/.lein-deps-sum
+/backend/.lein-plugins
+/backend/db
+/backend/lib
+/backend/classes
 /target

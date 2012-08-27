@@ -1,14 +1,10 @@
-<!DOCTYPE web-app PUBLIC
- "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
- "http://java.sun.com/dtd/web-app_2_3.dtd" >
-
 <web-app>
 	<listener>
-	  <listener-class>war.listener</listener-class>
+	  <listener-class>sencha.listener</listener-class>
 	</listener>
 	<servlet>
           <servlet-name>sencha-servlet</servlet-name>
-          <servlet-class>war.servlet</servlet-class>
+          <servlet-class>sencha.servlet</servlet-class>
         </servlet>
         <servlet-mapping>
           <servlet-name>sencha-servlet</servlet-name>
