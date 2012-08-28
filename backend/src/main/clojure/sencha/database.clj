@@ -31,5 +31,5 @@
       (println "Couldn't drop table.")))))
 
 (defn -main []
-	(drop-tables)
-	(create-tables))
+  (drop-tables)
+  (create-tables))
