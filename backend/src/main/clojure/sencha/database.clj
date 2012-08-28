@@ -13,7 +13,7 @@
 ;; Choose either the testing or production database
 ;; Note that the testing database is improper for .war deployment on cloudbees.
 
-(def db testing)
+(def db production)
 
 (defn create-tables []
   (sql/with-connection db
