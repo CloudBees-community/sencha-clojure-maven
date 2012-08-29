@@ -4,6 +4,7 @@
     "source": "git://github.com/michaelneale/sencha-clojure-maven.git",
     "description" : "This is a basic sencha application showcasing ORM with a clojure backend",
     "doc-url" : "https://github.com/michaelneale/sencha-clojure-maven/blob/master/README.md",
+    "app-package": "https://s3.amazonaws.com/cloudbees-downloads/webapp.war",
     "icon" : "https://raw.github.com/michaelneale/sencha-clojure-maven/master/icon.png",
     "runtime": {
         "type": "tomcat"                
