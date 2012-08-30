@@ -6,7 +6,6 @@
     "doc-url" : "https://github.com/CloudBees-community/sencha-clojure-maven/blob/master/README.md",
     "app-package" : "https://s3.amazonaws.com/cloudbees-downloads/clickstart/sencha-clojure.war",
     "icon" : "https://raw.github.com/CloudBees-community/sencha-clojure-maven/master/icon.png",
-    "disabled": true,
     "runtime": {
         "type": "tomcat"                
     },
