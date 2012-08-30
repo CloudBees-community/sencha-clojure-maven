@@ -1,3 +1,6 @@
+<img src="http://www.animatedgif.net/underconstruction/5consbar2_e0.gif"/>
+
+
 #  Sencha and Clojure clickstart
 
 This clickstart sets up a database, build service, repository and a basic Sencha and Clojure ORM application.
