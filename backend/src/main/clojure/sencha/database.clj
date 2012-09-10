@@ -4,16 +4,16 @@
 ;; This is a simple create-drop table setup
 ;; You might want to change this before going into production
 
-(def production {:name "java:comp/env/jdbc/ClojureDB"})
+(def proddb {:name "java:comp/env/jdbc/ClojureDB"})
 
-(def testing { :classname   "org.h2.Driver"
+(def testdb { :classname   "org.h2.Driver"
     :subprotocol "h2:file"
     :subname     "db/contacts"})
 
-;; Choose either the testing or production database
-;; Note that the testing database is improper for .war deployment on cloudbees.
+;; Choose either the test or production database
+;; Note that the test database is improper for .war deployment on cloudbees.
 
-(def db production)
+(def db proddb)
 
 (defn create-tables []
   (sql/with-connection db

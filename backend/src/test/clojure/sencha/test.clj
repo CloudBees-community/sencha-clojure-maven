@@ -3,5 +3,6 @@
   (:use [sencha.database])
   (:use [clojure.test]))
 
-(deftest replace-me 
-  (is false "You might want to write some tests for your application, I would. Maybe."))
+;; A test that succeeds. You can write your own tests here.
+(deftest dummy-test
+  (is true "This was a triumph. I'm making a note here, huge success."))
