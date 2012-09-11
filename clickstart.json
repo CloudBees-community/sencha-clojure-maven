@@ -2,7 +2,7 @@
     "id": "sencha-clojure",
     "name": "SenchaTouch/HTML5 and Clojure",
     "source": "git://github.com/CloudBees-community/sencha-clojure-maven.git",
-    "description" : "This is a very simple HTML5 mobile app, using the Sencha Touch framework, A Clojure backend with a database completes this modern stack.",
+    "description" : "HTML5 mobile app, using the Sencha Touch framework, a Clojure backend, and a database",
     "doc-url" : "https://github.com/CloudBees-community/sencha-clojure-maven/blob/master/README.md",
     "app-package" : "https://s3.amazonaws.com/cloudbees-downloads/clickstart/sencha-clojure.war",
     "icon" : "https://raw.github.com/CloudBees-community/sencha-clojure-maven/master/icon.png",
