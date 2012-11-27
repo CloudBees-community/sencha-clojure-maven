@@ -1,12 +1,9 @@
-<img src="http://www.animatedgif.net/underconstruction/5consbar2_e0.gif"/>
-
-
 #  Sencha and Clojure clickstart
 
 This clickstart sets up a database, build service, repository and a basic Sencha and Clojure ORM application.
 All built by maven or leiningen. 
 
-<a href="https://grandcentral.cloudbees.com/?CB_clickstart=https://raw.github.com/CloudBees-community/sencha-clojure-maven/master/clickstart.json"><img src="https://s3.amazonaws.com/cloudbees-downloads/clickstart/clickstart-now.png"/></a>
+<a href="https://grandcentral.cloudbees.com/?CB_clickstart=https://raw.github.com/CloudBees-community/sencha-clojure-maven/master/clickstart.json"><img src="https://d3ko533tu1ozfq.cloudfront.net/clickstart/deployInstantly.png"/></a>
 
 Launch this clickstart and glory could be yours too ! Use it as a building block if you like.
 
